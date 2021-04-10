@@ -32,7 +32,7 @@
 import os, platform, re, shutil, subprocess, sys, time
 
 font_extensions       = (".otf", ".otc", ".ttf", ".ttc")                  # Supported extensions
-initial_line_height   = 12                                                # Initial line-height, overridden by args
+initial_line_height   = 10                                                # Initial line-height, overridden by args
 initial_font_size     = 10                                                # Initial font-size
 initial_font_index    = 0                                                 # (useless) initial font-index for font collection
 initial_texture_px    = 80                                                # Initial texture width + height
