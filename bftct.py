@@ -71,7 +71,7 @@ banner = """\
 +----------------------------------------------------------+
 """
 
-print(banner.format(sys.argv[0]))
+print(banner.format(os.path.basename(sys.argv[0])))
 
 #
 # Manage args
